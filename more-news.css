@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+}
+
+.navbar-brand img{
+    width: 130px;
+    margin-left: 20px;
+}
+
+.navbar{
+    padding:0 !important;
+}
+
+
+.nav-link{
+    font-size: 25px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #333;
+}
+
+.nav-link img{
+    width: 23px;
+    margin-right: 3px;
+}
+
+.nav-link:hover {
+    color: #007BFF;
+}
+
+.hero {
+    background: url(images/heroback.webp);
+    background-size: 100% 180%;
+    text-align: center;
+    height: 400px;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-weight: bold;
+    color:#FFA500;
+}
+
+.hero p {
+    font-size: 2.5rem;
+    margin-top: 10px;
+    color:white;
+}
+
+.hero a{
+    font-size: 2rem;
+}
+
+/* Card Styling */
+.featured-players .card:hover {
+    transform: translateY(-10px);
+    transition: transform 0.3s;
+}
+.card .card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.schedule {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.section-title {
+    font-size: 2rem;
+    color: #0d6efd;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.custom-table thead {
+    background-color: #0d6efd;
+    color: #ffffff;
+}
+
+.custom-table thead th {
+    padding: 15px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.custom-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e2e6ea;
+    cursor: pointer;
+}
+
+.custom-table tbody td {
+    padding: 12px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #495057;
+}
+
+.custom-table tbody td:first-child {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+
+.custom-table tbody td:nth-child(4) {
+    font-style: italic;
+    color: #212529;
+}
+
+.custom-table tbody td:last-child {
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #d63384;
+}
+
+.featured-players{
+    background-color: #b0bdc941;
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.lnews{
+    background-color:#ffffff ;
+    border-radius: 7px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.lnews .card-img-top{
+    height:300px;
+}
+
+.down{
+    width: 100px;
+}
+
+.footer {
+    background-color:#beddeb;
+    color:black;
+}
+.footer a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.footer a:hover {
+    color: #8bc34a;
+    text-decoration: underline;
+}
+.footer h5 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 20px;
+}
+.footer p {
+    font-size: 18px;
+}
+
+.footer img{
+    width: 200px;
+    
+}
+
+.copy{
+    background-color:rgba(0, 0, 0, 0.163);
+}
+
+
+.modal .card .card-body img{
+    width: 50px !important;
+    height: 30px;
+}
+
+
+.score-text {
+    font-size: 1.2rem; /* Slightly larger font for the score */
+    font-weight: 600;  /* Bold text */
+    color: #333;      /* Darker text color for contrast */
+}
+
+.score-team .score {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+.modal .card-body {
+    padding: 1.5rem; /* Increased padding for better spacing */
+}
+
+.modal .btn-primary {
+    margin-top: 10px; /* Space between the score and button */
+}
+
+.badge{
+    font-size: 10px; /* Larger badge font */
+    padding: 8px 12px; /* More padding in the badge */
+    border-radius: 12px; /* Rounded badge */
+}
+
+.modal-header h5 {
+    font-size: 1.5rem; /* Increase the font size for modal title */
+    font-weight: 700;  /* Make title bold */
+}
+
+.modal-body {
+    padding-top: 15px; /* Add space on top of modal body */
+}
+
+
+#playerList::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari, and Edge */
+}
+
+.card-img-left{
+    width: 300px;
+    height: 300px;
+}
+
+.player-stats-section{
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.player-stats-section .list-group-item {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.player-stats-section .card-body ul li {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.player-stats-section .card-img-left {
+    border-radius: 5px;
+    margin-right: 15px;
+}
+
+.sta .card {
+    border-radius: 10px;
+    border: none;
+}
+
+.player-stats-section .section-title {
+    font-size: 2rem;
+    color: #0d6efd;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More News</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="more-news.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <a href="#" class="navbar-brand">
+            <img src="images/logo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navigation">
+            <ul class="navbar-nav mx-auto d-flex align-items-center">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">
+                        <img src="images/home.png" alt="">Home
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#latest-news" class="nav-link">
+                        <img src="images/newslogo.png" alt="">News
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#livescore" class="nav-link" data-bs-toggle="modal">
+                        <img src="images/scorelogo.webp" alt="">Live Scores
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="more-news.html#schedule" class="nav-link">
+                        <img src="images/schedule.png" alt="">Schedules
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="more-news.html#stats" class="nav-link">
+                        <img src="images/player.png" alt="">Stats
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        <img src="images/contact.webp" alt="">Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Hero Section -->
+    <section class="hero d-flex justify-content-center align-items-center flex-column text-center" style="background-image: url(images/heroback.webp); background-size: cover; background-position: center; background-repeat: no-repeat; min-height: 100vh; padding: 2rem;">
+        <h1>Welcome to the World of Cricket</h1>
+        <p>Get the latest updates, scores, and insights from the cricketing world.</p>
+        <a href="#latest-news" class="btn btn-light  mt-3">Explore Now</a>
+    </section>
+
+
+    <!-- Cricket Schedule Section -->
+    <section id="schedule">
+        <div class="container p-4 mt-4 schedule">
+            <h2 class="section-title">Upcoming Matches</h2>
+            <table class="table table-bordered table-striped custom-table">
+                <thead class="table-info text-center">
+                    <tr>
+                        <th>Date</th>
+                        <th>Match</th>
+                        <th>Venue</th>
+                        <th>Time</th>
+                    <tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>10 Jan 2025</td>
+                        <td>India vs Australia</td>
+                        <td>Mumbai</td>
+                        <td>7:00 PM</td>
+                    <tr>
+                    <tr>
+                        <td>12 Jan 2025</td>
+                        <td>England vs New Zealand</td>
+                        <td>London</td>
+                        <td>3:00 PM</td>
+                    <tr>
+                    <tr>
+                        <td>14 Jan 2025</td>
+                        <td>South Africa vs Pakistan</td>
+                        <td>Johannesburg</td>
+                        <td>6:00 PM</td>
+                    <tr>
+                </tbody>
+            </table>
+            <a href="#morematches" class="btn btn-dark" data-bs-toggle="collapse">View Full Schedule</a>
+            <div class="collapse" id="morematches">
+                <table class="table table-bordered mt-3 custom-table table-striped">
+                    <thead class="text-center table-info">
+                        <tr>
+                            <th>Date</th>
+                            <th>Match</th>
+                            <th>Venue</th>
+                            <th>Time</th>
+                        <tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>16 Jan 2025</td>
+                            <td>India vs England</td>
+                            <td>Delhi</td>
+                            <td>7:30 PM</td>
+                        <tr>
+                        <tr>
+                            <td>18 Jan 2025</td>
+                            <td>Australia vs South Africa</td>
+                            <td>Sydney</td>
+                            <td>4:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>20 Jan 2025</td>
+                            <td>New Zealand vs Pakistan</td>
+                            <td>Auckland</td>
+                            <td>2:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>22 Jan 2025</td>
+                            <td>India vs Pakistan</td>
+                            <td>Kolkata</td>
+                            <td>7:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>24 Jan 2025</td>
+                            <td>England vs Australia</td>
+                            <td>Melbourne</td>
+                            <td>6:30 PM</td>
+                        <tr>
+                        <tr>
+                            <td>26 Jan 2025</td>
+                            <td>South Africa vs New Zealand</td>
+                            <td>Cape Town</td>
+                            <td>5:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>28 Jan 2025</td>
+                            <td>India vs South Africa</td>
+                            <td>Chennai</td>
+                            <td>7:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>30 Jan 2025</td>
+                            <td>Australia vs Pakistan</td>
+                            <td>Adelaide</td>
+                            <td>4:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>01 Feb 2025</td>
+                            <td>England vs South Africa</td>
+                            <td>Birmingham</td>
+                            <td>6:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>03 Feb 2025</td>
+                            <td>India vs New Zealand</td>
+                            <td>Ahmedabad</td>
+                            <td>7:30 PM</td>
+                        <tr>
+                        <tr>
+                            <td>05 Feb 2025</td>
+                            <td>Pakistan vs England</td>
+                            <td>Lahore</td>
+                            <td>8:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>07 Feb 2025</td>
+                            <td>Australia vs New Zealand</td>
+                            <td>Brisbane</td>
+                            <td>2:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>09 Feb 2025</td>
+                            <td>South Africa vs India</td>
+                            <td>Durban</td>
+                            <td>6:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>11 Feb 2025</td>
+                            <td>Pakistan vs Australia</td>
+                            <td>Karachi</td>
+                            <td>4:30 PM</td>
+                        <tr>
+                        <tr>
+                            <td>13 Feb 2025</td>
+                            <td>New Zealand vs England</td>
+                            <td>Wellington</td>
+                            <td>1:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>15 Feb 2025</td>
+                            <td>India vs Australia</td>
+                            <td>Bangalore</td>
+                            <td>7:00 PM</td>
+                        <tr>
+                        <tr>
+                            <td>17 Feb 2025</td>
+                            <td>Pakistan vs South Africa</td>
+                            <td>Port Elizabeth</td>
+                            <td>5:00 PM</td>
+                        <tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <!--Cricket Schedule Section End -->
+
+    <!-- Featured Players Section -->
+    <section id="stats">
+        <div class="container py-3 mt-4 featured-players">
+            <h2 class="section-title text-center">Featured Players</h2>
+            <div class="row text-center">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card player-card shadow-sm">
+                        <img src="images/msdhoni.jpg" alt="Player 4" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">MS Dhoni</h5>
+                            <p class="card-text">Batsman, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card player-card shadow-sm">
+                        <img src="images/virat.webp" alt="Player 1" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Virat Kohli</h5>
+                            <p class="card-text">Batsman, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card player-card shadow-sm">
+                        <img src="images/smith.avif" alt="Player 2" class="card-img-top"> 
+                        <div class="card-body">
+                            <h5 class="card-title">Steve Smith</h5>
+                            <p class="card-text">Batsman, Australia</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card player-card shadow-sm">
+                        <img src="images/williamson.avif" alt="Player 3" class="card-img-top">
+                        <div class="card-body">
+                            <h5 class="card-title">Kane Williamson</h5>
+                            <p class="card-text">Batsman, New Zealand</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btns">
+                <a href="#statsplayer" class="btn btn-success w-50 d-block mx-auto" data-bs-toggle="collapse">Player Stats</a>
+            </div>
+        </div>
+    </section>
+    <!-- Featured Players Section End -->
+    
+    <!-- Player Stats -->
+    <section class="collapse player-stats-section my-4 bg-light container" id="statsplayer">
+        <h2 class="text-center text-primary">Player Stats</h2>
+        <div class="row d-flex justify-content-center py-2">
+            <!-- List Group: Player Names -->
+            <div class="col-md-4 my-2">
+                <div class="list-group shadow-sm" id="playerList" role="tablist" style="max-height: 300px; overflow-y: auto;">
+                    <!-- Indian players -->
+                    <a class="list-group-item list-group-item-action active" id="list-virat-list" data-bs-toggle="list" href="#list-virat" role="tab" aria-controls="virat">Virat Kohli</a>
+                    <a class="list-group-item list-group-item-action" id="list-dhoni-list" data-bs-toggle="list" href="#list-dhoni" role="tab" aria-controls="dhoni">MS Dhoni</a>
+                    <a class="list-group-item list-group-item-action" id="list-rohit-list" data-bs-toggle="list" href="#list-rohit" role="tab" aria-controls="rohit">Rohit Sharma</a>
+                    <a class="list-group-item list-group-item-action" id="list-sachin-list" data-bs-toggle="list" href="#list-sachin" role="tab" aria-controls="sachin">Sachin Tendulkar</a>
+                    <a class="list-group-item list-group-item-action" id="list-kapil-list" data-bs-toggle="list" href="#list-kapil" role="tab" aria-controls="kapil">Kapil Dev</a>
+                    <a class="list-group-item list-group-item-action" id="list-dravid-list" data-bs-toggle="list" href="#list-dravid" role="tab" aria-controls="dravid">Rahul Dravid</a>
+                    <a class="list-group-item list-group-item-action" id="list-sehwag-list" data-bs-toggle="list" href="#list-sehwag" role="tab" aria-controls="sehwag">Virender Sehwag</a>
+    
+                    <!-- Foreign players -->
+                    <a class="list-group-item list-group-item-action" id="list-smith-list" data-bs-toggle="list" href="#list-smith" role="tab" aria-controls="smith">Steve Smith</a>
+                    <a class="list-group-item list-group-item-action" id="list-warner-list" data-bs-toggle="list" href="#list-warner" role="tab" aria-controls="warner">David Warner</a>
+                    <a class="list-group-item list-group-item-action" id="list-abc-list" data-bs-toggle="list" href="#list-abc" role="tab" aria-controls="abc">AB de Villiers</a>
+                    <a class="list-group-item list-group-item-action" id="list-kallis-list" data-bs-toggle="list" href="#list-kallis" role="tab" aria-controls="kallis">Jacques Kallis</a>
+                    <a class="list-group-item list-group-item-action" id="list-ponting-list" data-bs-toggle="list" href="#list-ponting" role="tab" aria-controls="ponting">Ricky Ponting</a>
+                    <a class="list-group-item list-group-item-action" id="list-gayle-list" data-bs-toggle="list" href="#list-gayle" role="tab" aria-controls="gayle">Chris Gayle</a>
+                    <a class="list-group-item list-group-item-action" id="list-lara-list" data-bs-toggle="list" href="#list-lara" role="tab" aria-controls="lara">Brian Lara</a>
+                    <a class="list-group-item list-group-item-action" id="list-morgan-list" data-bs-toggle="list" href="#list-morgan" role="tab" aria-controls="morgan">Eoin Morgan</a>
+                    <a class="list-group-item list-group-item-action" id="list-marquette-list" data-bs-toggle="list" href="#list-marquette" role="tab" aria-controls="marquette">Michael Clarke</a>
+                    <a class="list-group-item list-group-item-action" id="list-wasim-list" data-bs-toggle="list" href="#list-wasim" role="tab" aria-controls="wasim">Wasim Akram</a>
+                </div>
+            </div>
+    
+            <!-- Player Stats Display -->
+            <div class="col-md-8 my-auto">
+                <div class="tab-content shadow-sm bg-white rounded">
+                    <!-- Virat Kohli Stats -->
+                    <div class="tab-pane fade show active sta" id="list-virat" role="tabpanel" aria-labelledby="list-virat-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/vk.jpg" alt="Virat Kohli" class="card-img-left d-block img-fluid mx-auto">
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Virat Kohli</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 275</li>
+                                    <li><strong>Runs:</strong> 12,344</li>
+                                    <li><strong>Average:</strong> 59.07</li>
+                                    <li><strong>Centuries:</strong> 43</li>
+                                    <li><strong>Half-centuries:</strong> 62</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- MS Dhoni Stats -->
+                    <div class="tab-pane fade  sta" id="list-dhoni" role="tabpanel" aria-labelledby="list-dhoni-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/msd.jpg" alt="MS Dhoni" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">MS Dhoni</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 350</li>
+                                    <li><strong>Runs:</strong> 10,773</li>
+                                    <li><strong>Average:</strong> 50.57</li>
+                                    <li><strong>Centuries:</strong> 10</li>
+                                    <li><strong>Half-centuries:</strong> 73</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Rohit Sharma Stats -->
+                    <div class="tab-pane fade  sta" id="list-rohit" role="tabpanel" aria-labelledby="list-rohit-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/rohit.webp" alt="Rohit Sharma" class="card-img-left d-block img-fluid mx-auto">
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Rohit Sharma</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 243</li>
+                                    <li><strong>Runs:</strong> 9,782</li>
+                                    <li><strong>Average:</strong> 48.96</li>
+                                    <li><strong>Centuries:</strong> 30</li>
+                                    <li><strong>Half-centuries:</strong> 49</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Sachin Tendulkar Stats -->
+                    <div class="tab-pane fade  sta" id="list-sachin" role="tabpanel" aria-labelledby="list-sachin-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/saching.jpg" alt="Sachin Tendulkar" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Sachin Tendulkar</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 463</li>
+                                    <li><strong>Runs:</strong> 18,426</li>
+                                    <li><strong>Average:</strong> 44.83</li>
+                                    <li><strong>Centuries:</strong> 49</li>
+                                    <li><strong>Half-centuries:</strong> 96</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Kapil Dev Stats -->
+                    <div class="tab-pane fade  sta" id="list-kapil" role="tabpanel" aria-labelledby="list-kapil-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/kapil.jpg" alt="Kapil Dev" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Kapil Dev</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 225</li>
+                                    <li><strong>Runs:</strong> 9,024</li>
+                                    <li><strong>Average:</strong> 31.05</li>
+                                    <li><strong>Centuries:</strong> 1</li>
+                                    <li><strong>Half-centuries:</strong> 52</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Rahul Dravid Stats -->
+                    <div class="tab-pane fade  sta" id="list-dravid" role="tabpanel" aria-labelledby="list-dravid-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/dravid.jpg" alt="Rahul Dravid" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Rahul Dravid</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 340</li>
+                                    <li><strong>Runs:</strong> 10,524</li>
+                                    <li><strong>Average:</strong> 52.31</li>
+                                    <li><strong>Centuries:</strong> 36</li>
+                                    <li><strong>Half-centuries:</strong> 73</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Virender Sehwag Stats -->
+                    <div class="tab-pane fade  sta" id="list-sehwag" role="tabpanel" aria-labelledby="list-sehwag-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/viru.jpg" alt="Virender Sehwag" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Virender Sehwag</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 255</li>
+                                    <li><strong>Runs:</strong> 8,586</li>
+                                    <li><strong>Average:</strong> 45.21</li>
+                                    <li><strong>Centuries:</strong> 22</li>
+                                    <li><strong>Half-centuries:</strong> 45</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Steve Smith Stats -->
+                    <div class="tab-pane fade  sta" id="list-smith" role="tabpanel" aria-labelledby="list-smith-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/smith.avif" alt="Steve Smith" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Steve Smith</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 77</li>
+                                    <li><strong>Runs:</strong> 8,470</li>
+                                    <li><strong>Average:</strong> 61.00</li>
+                                    <li><strong>Centuries:</strong> 27</li>
+                                    <li><strong>Half-centuries:</strong> 22</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- David Warner Stats -->
+                    <div class="tab-pane fade  sta" id="list-warner" role="tabpanel" aria-labelledby="list-warner-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/warner.png" alt="David Warner" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">David Warner</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 140</li>
+                                    <li><strong>Runs:</strong> 5,888</li>
+                                    <li><strong>Average:</strong> 45.44</li>
+                                    <li><strong>Centuries:</strong> 18</li>
+                                    <li><strong>Half-centuries:</strong> 22</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- AB de Villiers Stats -->
+                    <div class="tab-pane fade  sta" id="list-abc" role="tabpanel" aria-labelledby="list-abc-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/abd.webp" alt="AB de Villiers" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">AB de Villiers</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 228</li>
+                                    <li><strong>Runs:</strong> 9,577</li>
+                                    <li><strong>Average:</strong> 53.55</li>
+                                    <li><strong>Centuries:</strong> 25</li>
+                                    <li><strong>Half-centuries:</strong> 46</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Jacques Kallis Stats -->
+                    <div class="tab-pane fade  sta" id="list-kallis" role="tabpanel" aria-labelledby="list-kallis-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/kallis.jpg" alt="Jacques Kallis" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Jacques Kallis</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 166</li>
+                                    <li><strong>Runs:</strong> 10,289</li>
+                                    <li><strong>Average:</strong> 45.27</li>
+                                    <li><strong>Centuries:</strong> 17</li>
+                                    <li><strong>Half-centuries:</strong> 59</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Ricky Ponting Stats -->
+                    <div class="tab-pane fade  sta" id="list-ponting" role="tabpanel" aria-labelledby="list-ponting-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/ponting.jpg" alt="Ricky Ponting" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Ricky Ponting</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 375</li>
+                                    <li><strong>Runs:</strong> 13,704</li>
+                                    <li><strong>Average:</strong> 42.03</li>
+                                    <li><strong>Centuries:</strong> 41</li>
+                                    <li><strong>Half-centuries:</strong> 62</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Chris Gayle Stats -->
+                    <div class="tab-pane fade  sta" id="list-gayle" role="tabpanel" aria-labelledby="list-gayle-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/gayle.jpg" alt="Chris Gayle" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Chris Gayle</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 301</li>
+                                    <li><strong>Runs:</strong> 10,480</li>
+                                    <li><strong>Average:</strong> 41.45</li>
+                                    <li><strong>Centuries:</strong> 25</li>
+                                    <li><strong>Half-centuries:</strong> 53</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Brian Lara Stats -->
+                    <div class="tab-pane fade  sta" id="list-lara" role="tabpanel" aria-labelledby="list-lara-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/lara.webp" alt="Brian Lara" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Brian Lara</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 131</li>
+                                    <li><strong>Runs:</strong> 11,953</li>
+                                    <li><strong>Average:</strong> 52.88</li>
+                                    <li><strong>Centuries:</strong> 34</li>
+                                    <li><strong>Half-centuries:</strong> 48</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Eoin Morgan Stats -->
+                    <div class="tab-pane fade  sta" id="list-morgan" role="tabpanel" aria-labelledby="list-morgan-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/morgan.jpg" alt="Eoin Morgan" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Eoin Morgan</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 225</li>
+                                    <li><strong>Runs:</strong> 7,421</li>
+                                    <li><strong>Average:</strong> 38.96</li>
+                                    <li><strong>Centuries:</strong> 14</li>
+                                    <li><strong>Half-centuries:</strong> 44</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Michael Clarke Stats -->
+                    <div class="tab-pane fade  sta" id="list-marquette" role="tabpanel" aria-labelledby="list-marquette-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/clarke.jpg" alt="Michael Clarke" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Michael Clarke</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 245</li>
+                                    <li><strong>Runs:</strong> 8,643</li>
+                                    <li><strong>Average:</strong> 46.73</li>
+                                    <li><strong>Centuries:</strong> 28</li>
+                                    <li><strong>Half-centuries:</strong> 51</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Wasim Akram Stats -->
+                    <div class="tab-pane fade  sta" id="list-wasim" role="tabpanel" aria-labelledby="list-wasim-list">
+                        <div class="card flex-md-row shadow-sm">
+                            <img src="images/wasim.jpg" alt="Wasim Akram" class="card-img-left d-block img-fluid mx-auto"  >
+                            <div class="card-body mx-auto">
+                                <h5 class="card-title text-primary">Wasim Akram</h5>
+                                <ul class="list-unstyled mb-0">
+                                    <li><strong>Matches:</strong> 109</li>
+                                    <li><strong>Wickets:</strong> 916</li>
+                                    <li><strong>Best Bowling:</strong> 7/116</li>
+                                    <li><strong>Average:</strong> 23.52</li>
+                                    <li><strong>Five Wickets:</strong> 25</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Player Stats End -->
+
+
+    <!-- Latest News Section -->
+    <div class="container p-3 my-4 lnews" id="latest-news">
+        <h2 class="section-title">All Latest Cricket News</h2>
+        <div class="row g-4">
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-sm h-100 mb-4">
+                    <img src="images/ipl25.jpeg" class="card-img-top img-fluid" alt="News Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">New IPL Season Insights</h5>
+                        <p class="card-text">The IPL 2025 season is here with exciting changes.</p>
+                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="card border-0 shadow-sm h-100 mb-4">
+                    <img src="images/several.webp" class="card-img-top img-fluid" alt="News Image 5">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">Injury Update: Top Players</h5>
+                        <p class="card-text">Several key players are recovering from injuries ahead of big tournaments.</p>
+                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mx-md-auto">
+                <div class="card border-0 shadow-sm h-100 mb-4">
+                    <img src="images/news6.jpeg" class="card-img-top img-fluid" alt="News Image 6">
+                    <div class="card-body">
+                        <h5 class="card-title text-primary fw-bold">Cricket World Cup: Teams to Watch</h5>
+                        <p class="card-text">Which teams are the favorites to win the World Cup 2025? Find out here!</p>
+                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion accordion-flush mt-4" id="newsaccor">
+            <div class="accordion-item ">
+                <h2 class="accordion-header bg-warning">
+                    <button class="accordion-button collapsed bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#newscollapse" aria-expanded="false" aria-controls="flush-collapseOne">
+                        More News
+                    </button>
+                </h2>
+                <div id="newscollapse" class="accordion-collapse collapse" data-bs-parent="#newsaccor">
+                    <div class="accordion-body">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 mt-4">
+                                <div class="card border-0 shadow-sm">
+                                    <img src="images/news7.jpeg" class="card-img-top img-fluid" alt="News Image 7">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fw-bold">Rising Stars in Cricket</h5>
+                                        <p class="card-text">Meet the young talents who are making waves in the world of cricket.</p>
+                                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6 mt-4">
+                                <div class="card border-0 shadow-sm">
+                                    <img src="images/news8.webp" class="card-img-top img-fluid" alt="News Image 8">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fw-bold">Top Performances in 2024</h5>
+                                        <p class="card-text">A look at the top performances from players in 2024. Top performance in all formats this year.</p>
+                                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6 mt-4">
+                                <div class="card border-0 shadow-sm">
+                                    <img src="images/news9.jpeg" class="card-img-top img-fluid" alt="News Image 9">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fw-bold">Cricket's Impact on Society</h5>
+                                        <p class="card-text">Explore how cricket is influencing culture and society worldwide.</p>
+                                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6 mt-4">
+                                <div class="card border-0 shadow-sm">
+                                    <img src="images/news10.jpg" class="card-img-top img-fluid" alt="News Image 10">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fw-bold">The Evolution of Cricket Batting</h5>
+                                        <p class="card-text">A deep dive into how cricket batting techniques have evolved over the years.</p>
+                                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6 mt-4">
+                                <div class="card border-0 shadow-sm">
+                                    <img src="images/news11.jpg" class="card-img-top img-fluid" alt="News Image 11">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fw-bold">Captaincy in Modern Cricket</h5>
+                                        <p class="card-text">A look at the role of captains in modern cricket, from leadership to strategy.</p>
+                                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <div class="col-lg-4 col-md-6 mt-4">
+                                <div class="card border-0 shadow-sm">
+                                    <img src="images/news12.jpg" class="card-img-top img-fluid" alt="News Image 12">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary fw-bold">Cricket: A Sport for All Ages</h5>
+                                        <p class="card-text">Why cricket remains a sport enjoyed by people of all ages around the globe.</p>
+                                        <a href="#" class="btn btn-primary w-100">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Latest News Section End -->
+
+    <!-- footer -->
+    <div class="footer pt-4">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-5 col-md-6 text-center d-flex flex-column align-items-center">
+                    <img src="images/download.png" alt="Logo" class="img-fluid logo mb-3" style="max-width: 150px;">
+                    <p class="text-muted">
+                        At Cricket World, we celebrate the spirit of cricket. Dive into the latest scores, player updates, and expert opinions. Your passion, our platform!
+                    </p>
+                </div>
+    
+                <div class="col-lg-3 col-md-6">
+                    <h5 class="fw-bold text-primary mb-3">Contact</h5>
+                    <p><i class="fa-solid fa-location-dot text-primary me-2"></i>Via Rossini 10, 10136 Turin India</p>
+                    <p><i class="fa-solid fa-phone text-primary me-2"></i>Phone: (+91) 9092788791</p>
+                    <p><i class="fa-solid fa-envelope text-primary me-2"></i>Email: <a href="cricketworld@gmail.com" class="text-decoration-none">hello@domain.com</a></p>
+                    <p><i class="fa-brands fa-skype text-primary me-2"></i>Skype: Cricket_World</p>
+                </div>
+    
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold text-primary mb-3">Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none">Home</a></li>
+                        <li><a href="#livescore" class="text-muted text-decoration-none" data-bs-toggle="modal">Live Scores</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">News</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Schedules</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Stats</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none">Gallery</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-2 col-md-6">
+                    <h5 class="fw-bold text-primary mb-3">Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-muted text-decoration-none mb-2 d-block">
+                            <i class="fa-brands fa-facebook text-primary me-2"></i>Facebook</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none mb-2 d-block">
+                            <i class="fa-brands fa-instagram text-primary me-2"></i>Instagram</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none mb-2 d-block">
+                            <i class="fa-brands fa-twitter text-primary me-2"></i>Twitter</a></li>
+                        <li><a href="#" class="text-muted text-decoration-none mb-2 d-block">
+                            <i class="fa-brands fa-threads text-primary me-2"></i>Threads</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy bg-primary text-white text-center py-2 mt-4">
+            <p class="mb-0">&copy; 2025 Cricket World. All rights reserved.</p>
+        </div>
+    </div>
+    <!-- footer end -->
+
+    <!-- Modal -->
+    <div class="modal fade px-auto" tabindex="-1" id="livescore">
+        <div class="modal-dialog mx-sm-auto" style="max-width:80%;">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title" id="livescoreLabel">Live Scores</h3>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container py-3">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="text-center">
+                                                <img src="images/indiaflag.jpg" alt="India Flag" class="card-img img-fluid" style="max-width: 100%; height: auto;">
+                                                <h5 class="card-title mt-2">INDIA</h5>
+                                            </div>
+                                            <span class="badge bg-danger">Live</span>
+                                            <div class="text-center">
+                                                <img src="images/pakisthan.jpg" alt="Pakistan Flag" class="card-img img-fluid" style="max-width: 100%; height: auto;">
+                                                <h5 class="card-title mt-2">PAKISTHAN</h5>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="score-team text-center">
+                                                <span class="score">120/3</span>
+                                                <small class="text-muted">15 overs</small>
+                                            </div>
+                                            <div class="score-team text-center">
+                                                <span class="score">150/4</span>
+                                                <small class="text-muted">20 overs</small>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-primary mt-3">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="text-center">
+                                                <img src="images/australiaflag.jpg" alt="Australia Flag" class="card-img img-fluid" style="max-width: 100%; height: auto;">
+                                                <h5 class="card-title mt-2">AUSTRALIA</h5>
+                                            </div>
+                                            <span class="badge bg-danger">Live</span>
+                                            <div class="text-center">
+                                                <img src="images/newzealanflag.jpg" alt="New Zealand Flag" class="card-img img-fluid" style="max-width: 100%; height: auto;">
+                                                <h5 class="card-title mt-2">NEW ZEALAND</h5>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="score-team text-center">
+                                                <span class="score">150/4</span>
+                                                <small class="text-muted">20 overs</small>
+                                            </div>
+                                            <div class="score-team text-center">
+                                                <span class="score">110/5</span>
+                                                <small class="text-muted">18 overs</small>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-primary mt-3">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-4 col-md-6 mx-md-auto">
+                                <div class="card mb-2">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <div class="text-center">
+                                                <img src="images/southafrica.jpg" alt="South Africa Flag" class="card-img img-fluid" style="max-width: 100%; height: auto;">
+                                                <h5 class="card-title mt-2">SOUTHAFRICA</h5>
+                                            </div>
+                                            <span class="badge bg-danger">Live</span>
+                                            <div class="text-center">
+                                                <img src="images/westindies.jpg" alt="West Indies Flag" class="card-img img-fluid" style="max-width: 100%; height: auto;">
+                                                <h5 class="card-title mt-2">WESTINDIES</h5>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between mt-3">
+                                            <div class="score-team text-center">
+                                                <span class="score">200/10</span>
+                                                <small class="text-muted">50 overs</small>
+                                            </div>
+                                            <div class="score-team text-center">
+                                                <span class="score">145/7</span>
+                                                <small class="text-muted">44 overs</small>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn-primary mt-3">View Details</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of modal -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
